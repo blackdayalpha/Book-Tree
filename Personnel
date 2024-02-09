@@ -1,0 +1,18 @@
+Ext.define('Books.model.Personnel', {
+    extend: 'Books.model.Base',
+    alias: 'model.books',
+    fields: [{
+        name: 'subject',
+        type: 'string'
+    }, {
+        name: 'bname',
+        type: 'string'
+    }, {
+        name: 'author',
+        type: 'string'
+    }, {
+        name: 'price',
+        type: 'int',
+        defaultValue: null
+    }]
+});
